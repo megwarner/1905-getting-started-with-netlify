@@ -16,7 +16,7 @@
     </header>
 
   <div class="container">
-    <form action="" method="POST" data-netlify="true" name="Contact">
+    <form action="" method="POST" data-netlify="true" name="Contact" data-netlify-recaptcha="true">
       <div>
         <label for="name">Name</label>
         <input type="text" name="name">
@@ -25,6 +25,7 @@
         <label for="message">Message</label>
         <textarea name="message"></textarea>
       </div>
+      <div data-netlify-recaptcha="true"></div>
       <button type="submit">Send Message!</button>
     </form>
   </div>
